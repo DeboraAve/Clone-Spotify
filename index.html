@@ -1,87 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&display=swap" rel="stylesheet">
+
     <title>Música para todos - Spotify</title>
 </head>
 
 <body>
-    <!----Nav----->
-    <navbar id="navbar">
-        <div class="navbar-container">
-            <img src="./img/logo.png" alt="Logo Spotify" class="logo">
-            <ul class="navbar-menu">
-                <li class="navbar-item">Premium</li>
-                <li class="navbar-item">Ajuda</li>
-                <li class="navbar-item">Baixar</li>
-                <li class="navbar-item">Inscrever-se</li>
-                <li class="navbar-item">Entrar</li>
-            </ul>
-        </div>
-    </navbar>
+    <section class="container">
+        <!----Nav----->
+        <navbar id="navbar">
+            <div class="navbar-container">
+                <img src="./img/logo.png" alt="Logo Spotify" class="logo">
+                <ul class="navbar-menu">
+                    <li class="navbar-item">Premium</li>
+                    <li class="navbar-item">Ajuda</li>
+                    <li class="navbar-item">Baixar</li>
+                    <li class="navbar-item">Inscrever-se</li>
+                    <li class="navbar-item">Entrar</li>
+                </ul>
+            </div>
+        </navbar>
 
-    <!----Showcase----->    
-    <div id="showcase">
-       <div class="showcase-container">
+        <!----Showcase----->    
+        <div id="showcase">
+        <div class="showcase-container">
             <h2 class="titulo-centro">Música para todos.</h2>
             <p class="paragrafo">Milhões de músicas à sua escolha. E nem precisa de cartão de crédito.</p>
             <button class="botao">Obtenha o Spotify Free</button>
+        </div>
+        </div>
 
-       </div>
-    </div>
-
-     <!----Showcase-----> 
-     <footer id="footer">
-        <div class="footer-content">
-            <img src="./img/logo.png" alt="logo spotify" class="logo">
-            <ul class="footer-menu">
-                <p>Empresa</p>
-                <li class="footer-menu-item">Sobre</li>
-                <li class="footer-menu-item">Empregos</li>
-                <li class="footer-menu-item">For the Record</li>
-            </ul>
-            <ul class="footer-menu">
-                <p>Comunidade</p>
-                <li class="footer-menu-item">Para Artistas</li>
-                <li class="footer-menu-item">Desenvolvedores</li>
-                <li class="footer-menu-item">Marcas</li>
-                <li class="footer-menu-item">Investidores</li>
-                <li class="footer-menu-item">Fornecedores</li>
-            </ul>
-            <ul class="footer-menu">
-                <p>Links Úteis</p>
-                <li class="footer-menu-item">Ajuda</li>
-                <li class="footer-menu-item">Player da Web</li>
-                <li class="footer-menu-item">Aplicativo móvel grátis</li>
-            </ul>
+        <!----Showcase-----> 
+        <footer id="footer">
+            <div class="footer-div-img">
+                <img src="./img/logo.png" alt="logo spotify" class="logo">
+            </div>  
+            <div class="footer-content"> 
+                <div class="footer-opcoes">
+                    <div class="footer-opcoes-pai">
+                        <div class="footer-opcoes-titulo">Empresa</div>
+                        <ul class="footer-menu">
+                            <li class="footer-menu-item">Sobre</li>
+                            <li class="footer-menu-item">Empregos</li>
+                            <li class="footer-menu-item">For the Record</li>
+                        </ul>
+                    </div>
+                    <div class="footer-opcoes-pai">
+                       <div class="footer-opcoes-titulo">Comunidade</div>
+                        <ul class="footer-menu">
+                            <li class="footer-menu-item">Para Artistas</li>
+                            <li class="footer-menu-item">Desenvolvedores</li>
+                            <li class="footer-menu-item">Marcas</li>
+                            <li class="footer-menu-item">Investidores</li>
+                            <li class="footer-menu-item">Fornecedores</li>
+                        </ul> 
+                    </div>
+                    <div class="footer-opcoes-pai">
+                        <div class="footer-opcoes-titulo">Links Úteis</div>
+                        <ul class="footer-menu">
+                            <li class="footer-menu-item">Ajuda</li>
+                            <li class="footer-menu-item">Player da Web</li>
+                            <li class="footer-menu-item">Aplicativo móvel grátis</li>
+                        </ul>
+                    </div>
+                </div>            
+            </div>
             <div class="social">
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-facebook-f"></i>
             </div>
-        </div>
-        <div class="footer-info">
-            <ul class="footer-info-item">
-                <li class="footer-info-item">Legal</li>
-                <li class="footer-info-item">Central</li>
-                <li class="footer-info-item">Centro de Privacidade</li>
-                <li class="footer-info-item">Política de Privacidade</li>
-                <li class="footer-info-item">Cookies</li>
-                <li class="footer-info-item">Sobre anúncios</li>
-            </ul>
-
+            <div class="footer-info">
+                <ul class="footer-info-ul">
+                    <li class="footer-info-item">Legal</li>
+                    <li class="footer-info-item">Central</li>
+                    <li class="footer-info-item">Centro de Privacidade</li>
+                    <li class="footer-info-item">Política de Privacidade</li>
+                    <li class="footer-info-item">Cookies</li>
+                    <li class="footer-info-item">Sobre anúncios</li>
+                </ul>
+            </div>
             <div class="direitos">
                 <div class="brasil">
                     <p>Brasil</p>
                     <img src="./img/bandeira.png" alt="bandeira do Brasil" class="bandeira">
                 </div>
-                <p>&copy;2023 Spotify AB</p>
+                <p>&nbsp;&copy;&nbsp;2023 Spotify AB</p>
             </div>
-        </div>
-     </footer>
+        </footer>
+    </section>
 
      <script src="https://kit.fontawesome.com/16479fe79e.js" crossorigin="anonymous"></script>
      
