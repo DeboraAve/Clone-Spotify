@@ -9,7 +9,20 @@
 
         <title>Tinder</title>
     </head>
-    <body>
+    <body onload="preencheDados()">
+        <div id="modal">
+            <div id="modal-container">
+                <div id="modal-header">
+                    <button type="button" id="button" onclick="fecharModal()">X</button>
+                </div>
+                <div id="modal-body">
+                    <div id="mensagem-modal"></div>
+                </div>
+                <div id="modal-footer">
+                    <button type="button" id="fechar" onclick="fecharModal()">Continuar</button>
+                </div>               
+            </div>
+        </div>
         <main class="container-principal">
             <header>
                 <nav class="menu"> 
@@ -20,24 +33,25 @@
             </header>
 
             <section class="perfil">
-                <div class="foto">
+                <div class="foto" id="foto">
                     <div class="perfil-texto">
                         <div class="perfil-pessoa">
-                            <h2>Mark</h2>
-                            <h2>25</h2>
+                            <h2 id="nome"></h2>
+                            <h2 id="idade"></h2>
                         </div>
                         <div class="bio">
-                            <p class="perfil-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="perfil-bio" id="bio"></p>
                         </div>
                     </div>
                 </div>
                 <div class="acoes">
-                    <button class="botao"><i class="fas fa-times"></i></button>
-                    <button class="botao"><i class="fas fa-star"></i></button>
-                    <button class="botao"><i class="fas fa-heart"></i></button>                   
+                    <button class="botao" onclick="naoGostei()"><i class="fas fa-times"></i></button>
+                    <button class="botao" onclick="amar()"><i class="fas fa-star"></i></button>
+                    <button class="botao" onclick="gostar()"><i class="fas fa-heart"></i></button>                   
                 </div>
             </section>
         </main>
         <script src="https://kit.fontawesome.com/16479fe79e.js" crossorigin="anonymous"></script>
+        <script src="./js/scripts.js"></script>
     </body>
 </html>
