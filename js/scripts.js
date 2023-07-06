@@ -30,8 +30,8 @@ class Pessoa {
 
 let atual = 0;
 
-p1 = new Pessoa("Mark", 25, "./../img/homem.jpg", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
-p2 = new Pessoa("João", 35, "./../img/homem2.jpg", "Aenean iaculis velit sit amet nunc convallis semper");
+p1 = new Pessoa("Mark", 25, "https://github.com/DeboraAve/Clone-Tinder/blob/40b85e1cad8835b65df6e6fd76f06a0deab0cbc9/img/homem.jpg?raw=true", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+p2 = new Pessoa("João", 35, "https://github.com/DeboraAve/Clone-Tinder/blob/40b85e1cad8835b65df6e6fd76f06a0deab0cbc9/img/homem2.jpg?raw=true", "Aenean iaculis velit sit amet nunc convallis semper");
 simulaBanco = [p1,p2];
 
 function preencheDados(){
