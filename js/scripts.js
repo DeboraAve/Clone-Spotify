@@ -32,12 +32,12 @@ let atual = 0;
 
 p1 = new Pessoa("Mark", 25, "https://github.com/DeboraAve/Clone-Tinder/blob/40b85e1cad8835b65df6e6fd76f06a0deab0cbc9/img/homem.jpg?raw=true", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 p2 = new Pessoa("João", 35, "https://github.com/DeboraAve/Clone-Tinder/blob/40b85e1cad8835b65df6e6fd76f06a0deab0cbc9/img/homem2.jpg?raw=true", "Aenean iaculis velit sit amet nunc convallis semper");
-p3 = new Pessoa("Lucas", 27, "https://github.com/DeboraAve/Clone-Tinder/blob/40b85e1cad8835b65df6e6fd76f06a0deab0cbc9/img/homem2.jpg?raw=true", "Nunc euismod ultrices diam, ac scelerisque leo condimentum vitae.");
-p4 = new Pessoa("Alice", 23, "https://github.com/DeboraAve/Clone-Tinder/blob/40b85e1cad8835b65df6e6fd76f06a0deab0cbc9/img/homem2.jpg?raw=true", "Aenean4 iaculis velit sit amet nunc convallis semper");
-p5 = new Pessoa("Sophi", 25, "https://github.com/DeboraAve/Clone-Tinder/blob/40b85e1cad8835b65df6e6fd76f06a0deab0cbc9/img/homem2.jpg?raw=true", "Donec a nulla vitae tellus faucibus elementum.");
-p6 = new Pessoa("Caio", 28, "https://github.com/DeboraAve/Clone-Tinder/blob/40b85e1cad8835b65df6e6fd76f06a0deab0cbc9/img/homem2.jpg?raw=true", "Vestibulum luctus euismod dolor, vitae posuere tellus eleifend nec.");
-p7 = new Pessoa("Pedro", 23, "https://github.com/DeboraAve/Clone-Tinder/blob/40b85e1cad8835b65df6e6fd76f06a0deab0cbc9/img/homem2.jpg?raw=true", "Sed arcu dolor, lacinia sed neque non, ornare bibendum justo.");
-p8 = new Pessoa("Luisa", 28, "https://github.com/DeboraAve/Clone-Tinder/blob/40b85e1cad8835b65df6e6fd76f06a0deab0cbc9/img/homem2.jpg?raw=true", "Nunc fringilla tristique ipsum, a finibus est pellentesque in.");
+p3 = new Pessoa("Lucas", 27, "https://github.com/DeboraAve/Clone-Tinder/blob/main/img/homem3.jpg?raw=true", "Nunc euismod ultrices diam, ac scelerisque leo condimentum vitae.");
+p4 = new Pessoa("Alice", 26, "https://github.com/DeboraAve/Clone-Tinder/blob/main/img/mulher.jpg?raw=true", "Aenean4 iaculis velit sit amet nunc convallis semper");
+p5 = new Pessoa("Sophi", 23, "https://github.com/DeboraAve/Clone-Tinder/blob/main/img/mulher2.jpg?raw=true", "Donec a nulla vitae tellus faucibus elementum.");
+p6 = new Pessoa("Caio", 31, "https://github.com/DeboraAve/Clone-Tinder/blob/main/img/homem%204.jpg?raw=true", "Vestibulum luctus euismod dolor, vitae posuere tellus eleifend nec.");
+p7 = new Pessoa("Pedro", 24, "https://github.com/DeboraAve/Clone-Tinder/blob/main/img/homem5.jpg?raw=true", "Sed arcu dolor, lacinia sed neque non, ornare bibendum justo.");
+p8 = new Pessoa("Luisa", 28, "https://github.com/DeboraAve/Clone-Tinder/blob/main/img/mulher3.jpg?raw=true", "Nunc fringilla tristique ipsum, a finibus est pellentesque in.");
 
 simulaBanco = [p1,p2,p3,p4,p5,p6,p7,p8];
 
