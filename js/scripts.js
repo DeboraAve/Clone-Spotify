@@ -56,12 +56,13 @@ function preencheDados(){
     }
 }
 
-function exibirModal(opcao){
+function exibirModal(opcao, element){
+    cancelaFoco(element);
     document.getElementById("modal").style.display = "flex"
-    let mensagem = document.getElementById("mensagem-modal")
+    let mensagem = document.getElementById("mensagem-modal");
+    preencheDados();
     if (opcao == 1) {
         mensagem.innerHTML = "PRÓXIMO!!";
-        // document.write("PRÓXIMO!!")
     }else if (opcao == 2) {
         mensagem.innerHTML = "SUPER LIKE ENVIADO!!";
     }else if(opcao == 3) {
@@ -73,19 +74,20 @@ function exibirModal(opcao){
     }
 }
 
-function naoGostei(){
-    exibirModal(1);
-    preencheDados();
+function cancelaFoco(e){
+    e.blur();
 }
 
-function amar(){
-    exibirModal(2);
-    preencheDados();
+function naoGostei(e){
+    exibirModal(1, e);
 }
 
-function gostar(){
-    exibirModal(3);
-    preencheDados();
+function amar(e){
+    exibirModal(2, e);
+}
+
+function gostar(e){
+    exibirModal(3, e);
 }
 
 function fecharModal(){
